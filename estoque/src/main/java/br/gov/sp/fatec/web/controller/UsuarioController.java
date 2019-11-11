@@ -116,7 +116,7 @@ public class UsuarioController {
 		return usuarioRepo.save(usuario);
 	}
 	@CrossOrigin
-	@PreAuthorize("hasRole('ROLE_ADMIN')")
+//	@PreAuthorize("hasRole('ROLE_ADMIN')")
 	@RequestMapping(path="/deleteUsuario/{id}",method=RequestMethod.DELETE)
 	public ResponseEntity<Void> deleteById(@PathVariable long id) {
 		usuarioService.apagar(id);

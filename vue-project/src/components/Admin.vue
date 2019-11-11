@@ -3,7 +3,7 @@
 <!-- Início tela de Admin !-->
 <div>
     <!-- Início caixa de busca !-->
-   <v-parallax  height="300" src="https://cdn.vuetifyjs.com/images/parallax/material.jpg">
+   <v-parallax  height="300">
 
         <div class="hero-body">
             <div align="center" class="container">
@@ -239,6 +239,10 @@ export default {
 </script>
 
 <style>
+.hero-body{
+  background-color: #9f33dd;
+}
+
 .verde-padrao{
   background-color: #3aa56e;
   font-weight: 700;
