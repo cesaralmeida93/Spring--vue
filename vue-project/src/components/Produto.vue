@@ -119,7 +119,7 @@ export default{
     padding-left: 10px;
 }
 .botao-cadastrar{
-    background-color: #3aa56e;
+    background-color: #EA2027;
     color: white;
     cursor: pointer;
     padding: 5px 8px;

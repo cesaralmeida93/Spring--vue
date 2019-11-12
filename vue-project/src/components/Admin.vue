@@ -82,7 +82,7 @@
                                         <span v-if="produto.temp_armazemnagem<=0" style="color:blue">{{ produto.temp_armazemnagem }} ºC</span>
                                         <span v-else style="color:red">{{ produto.temp_armazemnagem }} ºC</span>
                                         </div>
-                                        <span v-if="temAcesso" class="button is-warning mr-3" @click="editar(produto)"> Editar</span>
+                                        <span class="button is-warning mr-3" @click="editar(produto)"> Editar</span>
                                         <span v-if="temAcesso" class="button is-danger" @click="deletar(produto.id)"> Deletar</span>
                                         <!-- Botão de editar !-->
                                     </div>
@@ -240,11 +240,11 @@ export default {
 
 <style>
 .hero-body{
-  background-color: #9f33dd;
+  background-color: #EE5A24;
 }
 
 .verde-padrao{
-  background-color: #3aa56e;
+  background-color: #EA2027;
   font-weight: 700;
   color: white;
 }

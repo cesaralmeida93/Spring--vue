@@ -188,7 +188,7 @@ export default{
     padding-left: 10px;
 }
 .botao-cadastrar{
-    background-color: #3aa56e;
+    background-color: #0652DD;
     color: white;
     cursor: pointer;
     padding: 5px 8px;
@@ -196,7 +196,7 @@ export default{
     margin-top: 10px;
 }
 .v-btn{
-  background-color: #23d160 !important;
+  background-color: #EA2027 !important;
 }
 
 </style>

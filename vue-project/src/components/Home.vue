@@ -19,7 +19,7 @@
         </h1>
         <h2 style="font-size: 20px"> Faça login para continuar </h2>
         <br>
-        <v-btn style="background-color: #23D160; color: white" href="/login"><b>Login</b></v-btn>
+        <v-btn style="background-color: #EA2027; color: white" href="/login"><b>Login</b></v-btn>
       </v-flex>
      
     </v-layout>
