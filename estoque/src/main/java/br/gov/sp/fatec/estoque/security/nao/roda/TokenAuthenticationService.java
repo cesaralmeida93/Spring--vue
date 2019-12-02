@@ -1,4 +1,4 @@
-package br.gov.sp.fatec.estoque.security;
+package br.gov.sp.fatec.estoque.security.nao.roda;
 
 import java.util.Collections;
 import java.util.Date;
